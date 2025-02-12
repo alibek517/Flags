@@ -5,9 +5,7 @@ body{
 .inp{
     margin-top: 20px;
     width: 350px;
-}
-li{
-    list-style: none;
+    font-size: 20px;
 }
 img{
     width: 200px;
@@ -18,22 +16,15 @@ img{
     display: flex;
     justify-content: center;
 }
-.search input{
-    font-size: 20px;
-}
 .fath{
     display: flex;
     flex-wrap: wrap;
-}
-.ul{
-    width: 200px;
-}
-.hidden{
-    display: none;
 }
 a{
     text-decoration: none;
     color: blue;
     font-size: 50px;
-    
+}
+.hidden{
+    display: none;
 }

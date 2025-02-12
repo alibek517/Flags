@@ -28,9 +28,9 @@ data((data, err)=>{
     if (err) {
         
     }else{
-        count.innerHTML += `<ul class="ul">
-        <li><img src="${data.flags.png}"</li>
-        <li>${data.name.common}</li>
+        count.innerHTML += `<ul style"width: 200px;">
+        <li style"list-style: none;"><img src="${data.flags.png}"</li>
+        <li style"list-style: none;">${data.name.common}</li>
         </ul>`
     }
 })
